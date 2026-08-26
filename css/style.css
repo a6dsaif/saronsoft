@@ -73,7 +73,7 @@ a {
     letter-spacing: 0.04em;
 }
 
-..brand img {
+.brand img {
     width: 48px;
     height: 48px;
     object-fit: cover;
