@@ -8,3 +8,8 @@
 .loader{position:fixed;inset:0;background:var(--bg);z-index:99;display:grid;place-items:center;transition:opacity .5s,visibility .5s}.loader span{font:800 20px Inter;letter-spacing:.15em}.loader.done{opacity:0;visibility:hidden}.reveal{opacity:0;transform:translateY(18px);transition:.7s ease}.reveal.show{opacity:1;transform:none}
 html[dir="ltr"] body{font-family:Inter,Cairo,sans-serif}html[dir="ltr"] .nav{font-family:Inter,sans-serif}html[dir="ltr"] .hero-content,html[dir="ltr"] .page-hero,html[dir="ltr"] .section{text-align:left}
 @media(max-width:800px){.site-header{height:70px}.menu-btn{display:block}.nav{position:absolute;top:70px;right:0;left:0;display:none;flex-direction:column;align-items:stretch;padding:18px 20px;background:#070d17;border-bottom:1px solid var(--line)}.nav.open{display:flex}.nav a,.lang{text-align:center;padding:10px}.hero-content{padding:75px 0}.section{padding:80px 0}.split,.cards,.contact-grid,.footer-grid,.portfolio-grid{grid-template-columns:1fr;gap:30px}.project:nth-child(3){grid-column:auto}.section-head{display:block}.section-head .text-link{margin-top:15px}.cta-box{padding:45px 25px}.service-row{grid-template-columns:45px 1fr}.service-row h2{font-size:25px}.project-visual{height:250px}.footer-grid{gap:30px}.footer-bottom{margin-top:35px;flex-wrap:wrap;gap:8px}h1{font-size:45px}}
+.brand img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
