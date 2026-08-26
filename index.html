@@ -1,151 +1,64 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Nexora — شركة برمجيات تبني حلولاً رقمية حديثة للأعمال.">
-  <title>Nexora — حلول رقمية تبني المستقبل</title>
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="SARONSOFT — مواقع إلكترونية احترافية للشركات والعلامات التجارية.">
+  <title>SARONSOFT | حلول ويب احترافية للشركات</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="noise"></div>
-  <header class="header" id="header">
-    <div class="container nav">
-      <a class="brand" href="#home" aria-label="Nexora">
-        <span class="brand-mark">N<span>.</span></span>
-        <span class="brand-name">Nexora</span>
-      </a>
-      <nav class="desktop-nav">
-        <a href="#home" data-i18n="nav.home">الرئيسية</a>
-        <a href="#services" data-i18n="nav.services">خدماتنا</a>
-        <a href="#about" data-i18n="nav.about">من نحن</a>
-        <a href="#work" data-i18n="nav.work">أعمالنا</a>
-        <a href="#process" data-i18n="nav.process">آلية العمل</a>
-        <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
-      </nav>
-      <div class="nav-actions">
-        <button class="lang-btn" id="langToggle">EN</button>
-        <a class="nav-cta" href="#contact" data-i18n="nav.cta">ابدأ مشروعك</a>
-        <button class="menu-btn" id="menuBtn" aria-label="Menu"><span></span><span></span></button>
-      </div>
+<div class="loader" aria-hidden="true"><span>SARONSOFT</span></div>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">S</span><span>SARONSOFT</span></a>
+  <button class="menu-btn" aria-label="فتح القائمة">☰</button>
+  <nav class="nav">
+    <a href="index.html" data-i18n="nav.home">الرئيسية</a>
+    <a href="services.html" data-i18n="nav.services">الخدمات</a>
+    <a href="portfolio.html" data-i18n="nav.work">الأعمال</a>
+    <a href="about.html" data-i18n="nav.about">عنّا</a>
+    <a href="contact.html" data-i18n="nav.contact">تواصل معنا</a>
+    <button class="lang" id="langBtn">EN</button>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-grid"></div>
+  <div class="container hero-content reveal">
+    <span class="eyebrow" data-i18n="hero.eyebrow">DIGITAL PRESENCE, BUILT RIGHT</span>
+    <h1 data-i18n="hero.title">نصنع حضورًا رقميًا<br><em>يليق بشركتك.</em></h1>
+    <p data-i18n="hero.text">مواقع إلكترونية عصرية وسريعة واحترافية تساعد الشركات على الظهور بثقة، وتحويل الزوار إلى عملاء.</p>
+    <div class="actions">
+      <a class="btn primary" href="contact.html" data-i18n="hero.cta">ابدأ مشروعك</a>
+      <a class="btn ghost" href="portfolio.html" data-i18n="hero.work">شاهد أعمالنا</a>
     </div>
-    <div class="mobile-menu" id="mobileMenu">
-      <a href="#home" data-i18n="nav.home">الرئيسية</a>
-      <a href="#services" data-i18n="nav.services">خدماتنا</a>
-      <a href="#about" data-i18n="nav.about">من نحن</a>
-      <a href="#work" data-i18n="nav.work">أعمالنا</a>
-      <a href="#process" data-i18n="nav.process">آلية العمل</a>
-      <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
+  </div>
+  <div class="hero-orb orb-a"></div><div class="hero-orb orb-b"></div>
+</section>
+
+<section class="section intro">
+  <div class="container split">
+    <div class="reveal"><span class="eyebrow" data-i18n="intro.label">WHY SARONSOFT</span><h2 data-i18n="intro.title">بسيط في الاستخدام.<br>قوي في الانطباع.</h2></div>
+    <div class="reveal"><p data-i18n="intro.text">نركز على ما تحتاجه الشركة فعلًا: تصميم واضح، تجربة مستخدم مريحة، سرعة عالية، وهوية رقمية متناسقة.</p><a class="text-link" href="about.html" data-i18n="intro.more">اكتشف SARONSOFT ←</a></div>
+  </div>
+</section>
+
+<section class="section services-preview">
+  <div class="container">
+    <div class="section-head reveal"><div><span class="eyebrow">SERVICES</span><h2 data-i18n="services.title">كل ما تحتاجه<br>لواجهة رقمية أقوى.</h2></div><a class="text-link" href="services.html" data-i18n="services.more">كل الخدمات ←</a></div>
+    <div class="cards">
+      <article class="card reveal"><span class="num">01</span><h3 data-i18n="card.web">مواقع الشركات</h3><p data-i18n="card.webText">مواقع تعريفية احترافية تعكس قيمة علامتك التجارية وتبني الثقة.</p></article>
+      <article class="card reveal"><span class="num">02</span><h3 data-i18n="card.landing">صفحات الهبوط</h3><p data-i18n="card.landingText">صفحات مركزة للحملات والخدمات والعروض، مصممة لتحقيق هدف واضح.</p></article>
+      <article class="card reveal"><span class="num">03</span><h3 data-i18n="card.ui">تصميم UI/UX</h3><p data-i18n="card.uiText">واجهات مريحة وعصرية تجعل رحلة الزائر أبسط وأكثر وضوحًا.</p></article>
     </div>
-  </header>
+  </div>
+</section>
 
-  <main id="home">
-    <section class="hero section">
-      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <div class="eyebrow"><span></span><b data-i18n="hero.eyebrow">نصنع حلولاً رقمية لها أثر</b></div>
-          <h1 data-i18n="hero.title">نحوّل الأفكار<br><em>إلى منتجات رقمية</em><br>تستحق أن تُبنى.</h1>
-          <p data-i18n="hero.text">شركة برمجيات متخصصة في تصميم وتطوير تجارب رقمية سريعة، ذكية، وقابلة للنمو — من الفكرة الأولى حتى الإطلاق وما بعده.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="#contact" data-i18n="hero.primary">ابدأ مشروعك <span>↗</span></a>
-            <a class="btn btn-ghost" href="#work" data-i18n="hero.secondary">شاهد أعمالنا</a>
-          </div>
-          <div class="trust-row">
-            <div><strong>50+</strong><span data-i18n="hero.stat1">مشروعاً منجزاً</span></div>
-            <div><strong>98%</strong><span data-i18n="hero.stat2">رضا العملاء</span></div>
-            <div><strong>24/7</strong><span data-i18n="hero.stat3">دعم مستمر</span></div>
-          </div>
-        </div>
-        <div class="hero-visual reveal delay">
-          <div class="orb orb-main"></div>
-          <div class="code-card">
-            <div class="window-bar"><i></i><i></i><i></i><span>nexora.app</span></div>
-            <div class="code-lines">
-              <p><b>01</b><span class="purple">const</span> <span class="blue">vision</span> = {</p>
-              <p><b>02</b>&nbsp;&nbsp;design: <span class="green">'bold'</span>,</p>
-              <p><b>03</b>&nbsp;&nbsp;technology: <span class="green">'smart'</span>,</p>
-              <p><b>04</b>&nbsp;&nbsp;impact: <span class="green">'real'</span></p>
-              <p><b>05</b>};</p>
-              <p class="cursor-line"><b>06</b> <span class="purple">build</span>(vision);<i></i></p>
-            </div>
-          </div>
-          <div class="float-card card-a"><span>✦</span><b>UI/UX</b><small>Pixel perfect</small></div>
-          <div class="float-card card-b"><span>↗</span><b>+184%</b><small>Growth</small></div>
-          <div class="grid-dots"></div>
-        </div>
-      </div>
-    </section>
+<section class="cta section">
+  <div class="container cta-box reveal"><span class="eyebrow">LET'S BUILD</span><h2 data-i18n="cta.title">جاهز تخلي شركتك<br>تظهر بشكل مختلف؟</h2><a class="btn primary" href="contact.html" data-i18n="cta.button">تحدث معنا</a></div>
+</section>
+</main>
 
-    <section class="marquee"><div><span>WEB DEVELOPMENT</span><i>✦</i><span>MOBILE APPS</span><i>✦</i><span>UI / UX DESIGN</span><i>✦</i><span>CLOUD & AI</span><i>✦</i><span>WEB DEVELOPMENT</span></div></section>
-
-    <section class="section services" id="services">
-      <div class="container">
-        <div class="section-head reveal">
-          <div><div class="eyebrow"><span></span><b data-i18n="services.eyebrow">ماذا نقدم</b></div><h2 data-i18n="services.title">كل ما يحتاجه مشروعك<br><em>ليكبر بثقة.</em></h2></div>
-          <p data-i18n="services.text">لا نقدم مجرد كود. نبني منتجات متكاملة تجمع بين الاستراتيجية، التصميم، التقنية، والأداء.</p>
-        </div>
-        <div class="services-grid">
-          <article class="service-card featured reveal"><div class="service-icon">◈</div><span class="num">01</span><h3 data-i18n="service.web.title">تطوير الويب</h3><p data-i18n="service.web.text">من المواقع التعريفية إلى منصات SaaS والأنظمة المخصصة، نبني حلولاً سريعة وآمنة وقابلة للتوسع.</p><a href="#contact">↗</a></article>
-          <article class="service-card reveal"><div class="service-icon">⌁</div><span class="num">02</span><h3 data-i18n="service.mobile.title">تطبيقات الجوال</h3><p data-i18n="service.mobile.text">تجارب iOS وAndroid أصلية أو متعددة المنصات، مصممة لتكون سلسة وموثوقة ومحبوبة.</p><a href="#contact">↗</a></article>
-          <article class="service-card reveal"><div class="service-icon">✣</div><span class="num">03</span><h3 data-i18n="service.design.title">UI / UX Design</h3><p data-i18n="service.design.text">نحوّل التعقيد إلى واجهات بسيطة وجميلة تجعل المستخدم يفهم منتجك ويستمتع باستخدامه.</p><a href="#contact">↗</a></article>
-          <article class="service-card reveal"><div class="service-icon">⌬</div><span class="num">04</span><h3 data-i18n="service.ai.title">الذكاء الاصطناعي</h3><p data-i18n="service.ai.text">نضيف الذكاء إلى منتجاتك عبر الأتمتة، المساعدات الذكية، وتحليل البيانات.</p><a href="#contact">↗</a></article>
-          <article class="service-card reveal"><div class="service-icon">☁</div><span class="num">05</span><h3 data-i18n="service.cloud.title">Cloud & DevOps</h3><p data-i18n="service.cloud.text">بنية سحابية مرنة، نشر مستمر، مراقبة وأمان يساعد منتجك على النمو دون تعقيد.</p><a href="#contact">↗</a></article>
-          <article class="service-card reveal"><div class="service-icon">◉</div><span class="num">06</span><h3 data-i18n="service.support.title">الدعم والتطوير</h3><p data-i18n="service.support.text">نظل معك بعد الإطلاق للتحسين، الصيانة، التطوير وإضافة الميزات الجديدة.</p><a href="#contact">↗</a></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="container about-grid">
-        <div class="about-art reveal">
-          <div class="art-frame"><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><span>N.</span></div>
-          <div class="about-badge"><strong>2026</strong><small data-i18n="about.badge">عام من الابتكار</small></div>
-        </div>
-        <div class="about-copy reveal">
-          <div class="eyebrow"><span></span><b data-i18n="about.eyebrow">من نحن</b></div>
-          <h2 data-i18n="about.title">نؤمن أن التقنية<br><em>يجب أن تكون بسيطة.</em></h2>
-          <p data-i18n="about.p1">في Nexora، نعمل مع الشركات ورواد الأعمال لبناء منتجات رقمية تترك انطباعاً واضحاً وتحقق نتائج قابلة للقياس.</p>
-          <p data-i18n="about.p2">فريقنا يجمع بين التفكير الإبداعي والخبرة التقنية، ونتعامل مع كل مشروع كشراكة حقيقية، لا كمجرد مهمة تسليم.</p>
-          <div class="values"><div><b>01</b><span data-i18n="value1">نبدأ من المستخدم</span></div><div><b>02</b><span data-i18n="value2">نبني بجودة</span></div><div><b>03</b><span data-i18n="value3">نقيس الأثر</span></div></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section work" id="work">
-      <div class="container">
-        <div class="section-head reveal"><div><div class="eyebrow"><span></span><b data-i18n="work.eyebrow">مختارات من أعمالنا</b></div><h2 data-i18n="work.title">أفكار أصبحت<br><em>واقعاً رقمياً.</em></h2></div><a class="text-link" href="#contact" data-i18n="work.link">لنعمل معاً ↗</a></div>
-        <div class="projects">
-          <article class="project project-large reveal"><div class="project-visual ecommerce"><div class="mock-nav">NEXORA <span>⌕　☰</span></div><div class="mock-content"><small>NEW COLLECTION</small><b>Less noise.<br>More style.</b><button>Explore →</button></div></div><div class="project-info"><div><h3>Velora</h3><p data-i18n="project1">منصة تجارة إلكترونية عصرية</p></div><span>↗</span></div></article>
-          <article class="project reveal"><div class="project-visual finance"><div class="chart"><i></i><i></i><i></i><i></i><i></i><i></i></div><b>$84,920</b><small>+24.8%</small></div><div class="project-info"><div><h3>Finora</h3><p data-i18n="project2">لوحة تحكم مالية ذكية</p></div><span>↗</span></div></article>
-          <article class="project reveal"><div class="project-visual health"><div class="health-circle">98<span>%</span></div><div class="health-lines"><i></i><i></i><i></i></div></div><div class="project-info"><div><h3>Pulse</h3><p data-i18n="project3">تجربة صحية رقمية</p></div><span>↗</span></div></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section process" id="process">
-      <div class="container">
-        <div class="section-head centered reveal"><div><div class="eyebrow"><span></span><b data-i18n="process.eyebrow">كيف نعمل</b></div><h2 data-i18n="process.title">من الفكرة إلى<br><em>الإطلاق.</em></h2></div></div>
-        <div class="steps">
-          <div class="step reveal"><span>01</span><h3 data-i18n="step1.title">اكتشاف</h3><p data-i18n="step1.text">نفهم أهدافك، جمهورك، والمشكلة التي نريد حلها.</p></div>
-          <div class="step reveal"><span>02</span><h3 data-i18n="step2.title">استراتيجية</h3><p data-i18n="step2.text">نضع خارطة طريق واضحة للمنتج والتقنية والأولويات.</p></div>
-          <div class="step reveal"><span>03</span><h3 data-i18n="step3.title">تصميم</h3><p data-i18n="step3.text">نصمم تجربة استخدام وواجهة تعكس شخصية علامتك.</p></div>
-          <div class="step reveal"><span>04</span><h3 data-i18n="step4.title">بناء</h3><p data-i18n="step4.text">نطور، نختبر، ونكرر حتى يصل المنتج لأفضل نسخة.</p></div>
-          <div class="step reveal"><span>05</span><h3 data-i18n="step5.title">إطلاق ونمو</h3><p data-i18n="step5.text">نطلق المنتج ونستمر في تحسينه بناءً على البيانات.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section contact" id="contact">
-      <div class="container contact-box reveal">
-        <div class="contact-copy"><div class="eyebrow"><span></span><b data-i18n="contact.eyebrow">لديك مشروع؟</b></div><h2 data-i18n="contact.title">خلّنا نبني<br><em>شيئاً عظيماً.</em></h2><p data-i18n="contact.text">أخبرنا عن فكرتك وسنعود إليك لمناقشة أفضل طريقة لتحويلها إلى منتج حقيقي.</p><a class="mail" href="mailto:hello@nexora.dev">hello@nexora.dev ↗</a></div>
-        <form class="contact-form" id="contactForm"><label><span data-i18n="form.name">الاسم</span><input required name="name" data-i18n-placeholder="form.namePh" placeholder="اسمك الكامل"></label><label><span data-i18n="form.email">البريد الإلكتروني</span><input required type="email" name="email" data-i18n-placeholder="form.emailPh" placeholder="you@example.com"></label><label><span data-i18n="form.project">كيف يمكننا مساعدتك؟</span><textarea required name="message" rows="4" data-i18n-placeholder="form.messagePh" placeholder="حدثنا عن مشروعك..."></textarea></label><button class="btn btn-primary" type="submit" data-i18n="form.send">إرسال الطلب ↗</button><small id="formMessage"></small></form>
-      </div>
-    </section>
-  </main>
-
-  <footer><div class="container footer-grid"><div><a class="brand" href="#home"><span class="brand-mark">N<span>.</span></span><span class="brand-name">Nexora</span></a><p data-i18n="footer.tag">نبني المنتجات الرقمية التي تدفع أعمالك إلى الأمام.</p></div><div class="footer-links"><a href="#services" data-i18n="nav.services">خدماتنا</a><a href="#about" data-i18n="nav.about">من نحن</a><a href="#work" data-i18n="nav.work">أعمالنا</a><a href="#contact" data-i18n="nav.contact">تواصل معنا</a></div><div class="socials"><a href="#">LinkedIn</a><a href="#">Instagram</a><a href="#">X</a></div></div><div class="container copyright"><span>© 2026 Nexora. <span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></span><span data-i18n="footer.made">صُنع بشغف وبكثير من القهوة ☕</span></div></footer>
-  <script src="js/app.js"></script>
-</body>
-</html>
+<footer class="footer"><div class="container footer-grid"><div><a class="brand" href="index.html"><span class="brand-mark">S</span><span>SARONSOFT</span></a><p data-i18n="footer.tag">نبني حضورًا رقميًا يليق بالأعمال.</p></div><div><h4 data-i18n="footer.explore">استكشف</h4><a href="services.html" data-i18n="nav.services">الخدمات</a><a href="portfolio.html" data-i18n="nav.work">الأعمال</a><a href="about.html" data-i18n="nav.about">عنّا</a></div><div><h4 data-i18n="footer.contact">تواصل</h4><a href="contact.html" data-i18n="nav.contact">تواصل معنا</a><a href="mailto:hello@saronsoft.com">hello@saronsoft.com</a></div></div><div class="container footer-bottom"><span>© 2026 SARONSOFT</span><span data-i18n="footer.rights">جميع الحقوق محفوظة.</span></div></footer>
+<script src="js/app.js"></script><script src="js/language.js"></script>
+</body></html>

@@ -1,1 +1,17 @@
-SARONSOFT Professional Business Websites. SARONSOFT helps businesses build a strong online presence with modern, responsive, and user-friendly websites. We create professional websites that showcase your company, services, and brand, making it easier for customers to discover your business and connect with you. Our services include business websites, company profiles, landing pages, responsive web design, and modern UI/UX tailored to your brand. Our mission is to help businesses establish a professional digital presence through clean, modern, and effective websites. 
+# SARONSOFT
+
+موقع شركة حديث ومتعدد الصفحات لخدمات تصميم وتطوير مواقع الشركات.
+
+## الصفحات
+- الرئيسية
+- الخدمات
+- الأعمال
+- عنّا
+- تواصل معنا
+- 404
+
+## التقنية
+HTML + CSS + JavaScript — بدون إطار عمل، جاهز لـ GitHub Pages.
+
+## ملاحظة
+ضع شعار الشركة والصور داخل `assets/`، ثم حدّث مساراتها في الصفحات عند الحاجة.
